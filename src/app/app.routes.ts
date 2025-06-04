@@ -1,6 +1,9 @@
 // src/app/app.routes.ts
 import { Routes } from '@angular/router';
-import { LoginComponent } from './auth/login/login.component';
+// src/app/app.routes.ts
+// Update the path below to the correct relative path where LoginComponent is located.
+// For example, if it's in src/app/features/login/login.component.ts, use:
+import { LoginComponent } from './features/login/login.component';
 import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { ContactoComponent } from './features/dashboard/contacto/contacto.component';
 import { PedidosComponent } from './features/dashboard/pedidos/pedidos.component';

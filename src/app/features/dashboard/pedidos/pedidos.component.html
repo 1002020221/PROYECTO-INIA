@@ -1,2 +1,14 @@
 <app-indice/>
-hola mundo
+<div class="pedidos-container">
+  <h2>Pedidos</h2>
+  <div class="pedidos-list" *ngIf="pedidos.length > 0; else noPedidos">
+    <div class="pedido-card" *ngFor="let pedido of pedidos">
+      <h3>Pedido #{{ pedido.id }}</h3>
+      <p>Estado: {{ pedido.estado }}</p>
+      <p>Total: S/ {{ pedido.total.toFixed(2) }}</p>
+      <button (click)="viewPedidoDetails(pedido.id)" class="btn btn-details">Ver Detalles</button>
+    </div>
+  </div>
+  <ng-template #noPedidos>
+    <p>No hay pedidos disponibles.</p>
+  </ng-template>    
