@@ -1,0 +1,7 @@
+/* Puedes añadir esto a src/styles.css para asegurar que el fondo se extienda bien */
+html, body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Una fuente base */
+}

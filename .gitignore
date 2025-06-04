@@ -1,0 +1,30 @@
+# Gitignore para proyecto Angular
+
+# Dependencias y builds
+/node_modules
+/dist
+/.angular/cache
+
+# Logs
+npm-debug.log
+yarn-error.log
+*.log
+
+# IDEs
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Testing
+/coverage
+/testem.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env.local
+.env.*.local
