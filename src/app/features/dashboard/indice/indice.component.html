@@ -1,8 +1,7 @@
 <header class="store-header">
   <h1>Tienda de productos lacteos</h1>
   <nav>
-   <a *ngIf="router.url !== '/dashboard'" routerLink="/dashboard">Inicio</a>
-
+  <a *ngIf="router.url !== '/dashboard'" routerLink="/dashboard">Inicio</a>
    <a routerLink="/dashboard/pedidos">Pedidos</a>
    <a routerLink="/dashboard/contacto">Contactos</a>
    <button (click)="logout()" class="logout-button">Cerrar Sesión</button>
