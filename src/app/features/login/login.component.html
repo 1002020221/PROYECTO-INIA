@@ -4,7 +4,7 @@
    <h2>Bienvenido</h2>
    <p>Inicia sesión para continuar</p>
   </div>
-  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+  <form (ngSubmit)="onSubmit()" #loginForm="ngForm" (click)="login()">
    <div class="form-group">
     <label for="email">Correo Electrónico</label>
     <input
