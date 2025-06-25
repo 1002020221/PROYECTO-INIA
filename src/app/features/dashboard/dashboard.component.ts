@@ -16,8 +16,8 @@ interface Product {
 
 @Component({
  selector: 'app-dashboard', // Si lo renombraste, actualiza esto
- standalone: true,
- imports: [CommonModule, RouterModule, RouterLink, IndiceComponent],
+ standalone: true,  
+ imports: [CommonModule, RouterModule, IndiceComponent],
  templateUrl: './dashboard.component.html', // Si lo renombraste, actualiza esto
  styleUrls: ['./dashboard.component.css']  // Si lo renombraste, actualiza esto
 })
