@@ -1,6 +1,6 @@
 // src/environments/environment.ts
 export const environment = {
-  production: false,
+  production: true,
   firebaseConfig: {
     apiKey: "AIzaSyC1iL3nBIACYDfYMMjvXozjh4xC3QR6Y1M",
     authDomain: "web-tareas-648be.firebaseapp.com",
